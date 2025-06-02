@@ -27,18 +27,21 @@ a{
     background-image: url(Images/br.png);
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 
 #EN{
     background-image: url(Images/usa.png);
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 
 #profilePic{
     border-radius: 50%;
     height: 300px;
-    margin-right: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 span.name{
     font-family: Silkscreen;
@@ -47,17 +50,37 @@ span.name{
 }
 
 .presentation{
-    display: flex;
     background-image: url(Images/gridBackground.jpg);
     background-size: cover;
     background-position: center;
-    padding-left: 330px;
-    padding-right: 330px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 20px;
     padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.info{
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+}
+
+.links{
+    display: flex;
+    justify-content: left;
+    margin-left: 55px;
+}
+
+.links i{
+    margin-inline: 5px;
+}
+
+.links i:hover{
+    transform: scale(1.1);
+    background: transparent;
+    color: var(--orange);
+    text-shadow: 1px 1px 10px #fff;
 }
 
 header{
