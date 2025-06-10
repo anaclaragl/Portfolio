@@ -2,6 +2,7 @@
 
 :root{
     --orange: #F46700;
+    --grey: #c1c1c1;
 }
 *{
     margin: 0;
@@ -106,4 +107,23 @@ footer{
     justify-content: right;
 
     padding: 30px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.content-items a{
+    padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid;
+    border-color: var(--grey);
+    margin: 1em;
+}
+
+.content-items a:hover{
+    box-shadow: 1px 1px 10px var(--grey);
 }
