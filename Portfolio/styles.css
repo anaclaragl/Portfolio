@@ -109,14 +109,16 @@ footer{
     padding: 30px;
 }
 
-.content{
+.content-items{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
 }
 
 .content-items a{
+    text-align: center;
+    width: 5em;
+    height: 2em;
     padding: 10px;
     font-size: 1.5em;
     border: 1px solid;
@@ -126,4 +128,59 @@ footer{
 
 .content-items a:hover{
     box-shadow: 1px 1px 10px var(--grey);
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.projects a{
+    text-decoration: none;
+}
+
+.projects a:hover{
+    text-shadow: 1px 1px 10px var(--orange);
+}
+
+.skills{
+    display: block;
+    padding-left: 300px;
+}
+
+.skill-box{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    height: 50px; 
+    border: 1px solid var(--grey);
+}
+
+.skill-box span{
+    font-size: larger;
+    margin-left: 10px;
+}
+
+.career{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.career hr{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
