@@ -24,6 +24,19 @@ a{
     cursor: pointer;
 }
 
+header{
+    background-image: url(Images/gridBackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
 #PT{
     background-image: url(Images/br.png);
     background-size: cover;
@@ -84,19 +97,6 @@ span.name{
     text-shadow: 1px 1px 10px #fff;
 }
 
-header{
-    background-image: url(Images/gridBackground.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-nav{
-    position: sticky;
-    top: 0;
-    padding: 10px;
-    display: flex;
-    justify-content: right;
-}
 
 footer{
     display: flex;
@@ -183,4 +183,16 @@ footer{
     margin-top: 30px;
     padding-left: 300px;
     padding-right: 300px;
+}
+
+.project-full{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-links{
+    display: flex;
+    justify-content: left;
 }
