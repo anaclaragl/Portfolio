@@ -18,30 +18,30 @@
     </header>
     <div class="presentation">
         <div class="info">
-            <img src="Images/literallyMe.jpg" alt="" id="profilePic">
-            <p>Hi There! My name is <span class="name">ANA LINHARES</span>, a passionate programmer who appreciate the journey of developing experiences.</p>
+            <div class="profile-pic-container">
+                <img src="Images/eu.jpeg" alt="" id="profilePic">
+            </div>
+            <p>Hi there! My name is <span class="name">ANA LINHARES</span>, a passionate programmer who appreciate the journey of developing experiences.</p>
         </div>
         <div class="links">
             <i class="fa fa-envelope fa-lg"></i>
             <i class="fa fa-github fa-lg"></i>
             <i class="fa fa-linkedin fa-lg"></i>
             <i class="fa fa-youtube-play fa-lg"></i>
-            <i class="fa fa-instagram fa-lg"></i>
-            
         </div>
     </div>
     <div class="content">
         <div class="content-items">
-            <a>Projects</a>
-            <a>Skills</a>
-            <a>Career</a>
+            <a id="projects_button">Projects</a>
+            <a id="skills_button">Skills</a>
+            <a id="career_button">Career</a>
             <a>Others</a>
         </div>
 
     </div>
-    <div class="projects">
+    <div class="projects" id="projects" style="display: none;">
         <div class="rangolitico">
-            <a>
+            <a id="rangolitico_button">
                 <img src="Images/main_menu_2.png" style="width: 200px;">
                 <h1>Rangolítico</h1>
                 <p>Game made in 2025</p>
@@ -62,7 +62,7 @@
             </a>
         </div>
     </div>
-    <div class="project-full">
+    <div class="project-full" id="project-full-rangolitico" style="display: none;">
         <img src="Images/main_menu_2.png" style="width: 70%; height: 200px; object-fit: cover; 
         object-position: left -200px;">
         <h1>Rangolítico</h1>
@@ -79,7 +79,7 @@
         <span style="color: var(--orange);">Personal Evaluation:</span>
         <p>For my graduation project, I was responsible for UI design, UI programming, and gameplay programming, contributing to the game's development from concept to execution.</p>
     </div>
-    <div class="skills">
+    <div class="skills" id="skills" style="display: none;">
         <div class="skill-box" style="width: 80%;"> 
             <i class="devicon-csharp-plain" style="font-size: larger;"></i>
             <span>C#</span>
@@ -105,7 +105,7 @@
             <span>CSS</span>
         </div>
     </div>
-    <div class="career">
+    <div class="career" id="career" style="display: none;">
         <div class="education">
             <h2>Centro Federal de Educação Tecnológica</h2>
             <h3>2019 - 2021</h3>
@@ -139,5 +139,6 @@
     <footer>
         Ana Clara Guimarães Linhares | 2025
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

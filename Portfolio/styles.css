@@ -41,21 +41,21 @@ nav{
     background-image: url(Images/br.png);
     background-size: cover;
     background-position: center;
-    border-radius: 5px;
 }
 
 #EN{
     background-image: url(Images/usa.png);
     background-size: cover;
     background-position: center;
-    border-radius: 5px;
 }
 
 #profilePic{
     border-radius: 50%;
     height: 300px;
+    width: 300px;
     margin-right: 50px;
     margin-bottom: 20px;
+    object-fit: cover;
 }
 span.name{
     font-family: Silkscreen;
@@ -83,7 +83,7 @@ span.name{
 .links{
     display: flex;
     justify-content: left;
-    margin-left: 55px;
+    margin-left: 3em;
 }
 
 .links i{
