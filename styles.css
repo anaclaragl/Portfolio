@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Silkscreen:wght@400;700&display=swap');
+
+:root{
+    --orange: #F46700;
+    --grey: #c1c1c1;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
+
+body{
+    background-color: black;
+}
+
+a{
+    border: none;
+    height: 30px;
+    width: 50px;
+    margin-inline: 5px;
+    cursor: pointer;
+}
+
+header{
+    background-image: url(Images/gridBackground.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+#PT{
+    background-image: url(Images/br.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#EN{
+    background-image: url(Images/usa.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#profilePic{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    box-shadow: 1px 1px 10px var(--orange);
+}
+span.name{
+    font-family: Silkscreen;
+    color: var(--orange);
+    font-size: 40px;
+}
+
+.presentation{
+    background-image: url(Images/gridBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 28px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: left;
+    margin-left: 3em;
+}
+
+.links i{
+    margin-inline: 5px;
+}
+
+.links i:hover{
+    transform: scale(1.1);
+    background: transparent;
+    color: var(--orange);
+    text-shadow: 1px 1px 10px #fff;
+}
+
+
+footer{
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    align-items: end;
+    justify-content: right;
+
+    padding: 30px;
+}
+
+.content-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-items a{
+    text-align: center;
+    width: 8%;
+    height: 2em;
+    padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid;
+    border-color: var(--grey);
+    margin: 1em;
+}
+
+.content-items a:hover{
+    box-shadow: 1px 1px 10px var(--grey);
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.projects a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.projects a:hover{
+    text-shadow: 1px 1px 10px var(--grey);
+}
+
+.skills{
+    display: block;
+    padding-left: 300px;
+}
+
+.skill-box{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    height: 50px; 
+    border: 1px solid var(--grey);
+}
+
+.skill-box span{
+    font-size: larger;
+    margin-left: 10px;
+}
+
+.career{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.career hr{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.project-full{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+
+.project-full p{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+.project-full span{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.project-links{
+    display: flex;
+    justify-content: left;
+}
+
+.project-links a:hover{
+    transform: scale(1.1);
+}
