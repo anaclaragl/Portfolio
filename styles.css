@@ -146,6 +146,7 @@ footer{
 
 .projects a:hover{
     text-shadow: 1px 1px 10px var(--grey);
+    text-decoration: underline;
 }
 
 .skills{
@@ -214,4 +215,15 @@ footer{
 
 .project-links a:hover{
     transform: scale(1.1);
+}
+
+.gridgalery{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gridgalery img{
+    width: 600px;
 }

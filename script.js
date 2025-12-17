@@ -49,3 +49,13 @@ document.getElementById('rangolitico_button').addEventListener('click', function
       conteudo.style.display = 'none';
     }
   });
+
+  document.getElementById('lune_button').addEventListener('click', function(event) {
+    event.preventDefault();
+    var conteudo = document.getElementById('project-full-lune');
+    if (conteudo.style.display == 'none') {
+      conteudo.style.display = 'flex';
+    } else {
+      conteudo.style.display = 'none';
+    }
+  });
