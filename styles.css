@@ -241,3 +241,58 @@ footer{
 .gridgalery img{
     width: 600px;
 }
+
+/*Responsividade*/
+@media (max-width: 768px) {
+    header{
+        background-image: none;
+        background-color: black;
+        padding-right: 15px;
+    }
+
+
+    .info{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #profilePic{
+        height: 200px;
+        width: 200px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .presentation{
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .links{
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .projects{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .gridgalery{
+        grid-template-columns: 1fr;
+    }
+
+    .content-items{
+        flex-direction: column;
+    }
+
+    .content-items a{
+        width: 40%;
+    }
+
+    span.name{
+        font-size: 30px;
+    }
+
+}
