@@ -11,6 +11,7 @@ document.getElementById('projects_button').addEventListener('click', function(ev
       skills.style.display = 'none';
       career.style.display = 'none';
       projects.style.display = 'flex';
+      projects.scrollIntoView({ behavior: "smooth", block: "end" });
     } else {
       projects.style.display = 'none';
       rangolitico.style.display = 'none';
@@ -28,6 +29,7 @@ document.getElementById('skills_button').addEventListener('click', function(even
       rangolitico.style.display = 'none';
       lune.style.display = 'none';
       dialog.style.display = 'none';
+      skills.scrollIntoView({ behavior: "smooth", block: "end" });
     } else {
       skills.style.display = 'none';
     }
@@ -42,6 +44,7 @@ document.getElementById('career_button').addEventListener('click', function(even
       rangolitico.style.display = 'none';
       lune.style.display = 'none';
       dialog.style.display = 'none';
+      career.scrollIntoView({ behavior: "smooth", block: "end" });
     } else {
       career.style.display = 'none';
     }
@@ -53,6 +56,7 @@ document.getElementById('rangolitico_button').addEventListener('click', function
       rangolitico.style.display = 'flex';
       lune.style.display = 'none';
       dialog.style.display = 'none';
+      rangolitico.scrollIntoView({ behavior: "smooth", block: "end" });
     } else {
       rangolitico.style.display = 'none';
     }
@@ -64,6 +68,7 @@ document.getElementById('rangolitico_button').addEventListener('click', function
       lune.style.display = 'flex'
       dialog.style.display = 'none';
       rangolitico.style.display = 'none';
+      lune.scrollIntoView({ behavior: "smooth", block: "end" });
     } else {
       lune.style.display = 'none';
     }
@@ -75,6 +80,7 @@ document.getElementById('rangolitico_button').addEventListener('click', function
       dialog.style.display = 'flex';
       lune.style.display = 'none';
       rangolitico.style.display = 'none';
+      dialog.scrollIntoView({ behavior: "smooth", block: "end" });
     } else {
       dialog.style.display = 'none';
     }
