@@ -19,10 +19,12 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: cd Portfolio && npm ci
+        working-directory: Portfolio
+        run: npm ci
 
       - name: Build project
-        run: cd Portfolio && npm run build
+        working-directory: Portfolio
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

@@ -1,30 +1,30 @@
 {
   "schema_version": 2,
-  "saved_at": "2026-06-25T14:12:34.696Z",
+  "saved_at": "2026-06-25T14:20:34.778Z",
   "tama": {
     "name": "Pochi",
-    "hunger": 15,
-    "thirst": 0,
-    "sleepy": 1,
-    "happiness": 14.5,
-    "angry": 0,
-    "weight": 7,
+    "hunger": 81,
+    "thirst": 66,
+    "sleepy": 100,
+    "happiness": 69.5,
+    "angry": 20,
+    "weight": 4,
     "sleeping": false,
     "dead": true,
     "depressed": false,
     "pissed_of": false,
     "overweight": false,
     "underweight": true,
-    "last_saved": "2026-06-25T14:12:34.696Z",
-    "xp": 621,
+    "last_saved": "2026-06-25T14:20:34.778Z",
+    "xp": 720,
     "level": 4,
     "stage": 1,
-    "total_feeds": 31,
-    "total_waters": 35,
-    "total_pets": 14,
-    "total_sleeps": 1,
-    "total_exercises": 105,
-    "total_annoys": 3,
+    "total_feeds": 36,
+    "total_waters": 40,
+    "total_pets": 19,
+    "total_sleeps": 8,
+    "total_exercises": 108,
+    "total_annoys": 5,
     "total_ticks": 20,
     "achievements": [
       {
@@ -199,19 +199,19 @@
         "quest_id": "daily_feed",
         "status": "active",
         "baseline": 31,
-        "started_at": "2026-06-25T11:37:45.132Z"
+        "started_at": "2026-06-25T11:37:54.595Z"
       },
       {
         "quest_id": "daily_water",
         "status": "active",
         "baseline": 35,
-        "started_at": "2026-06-25T11:37:45.132Z"
+        "started_at": "2026-06-25T11:37:54.595Z"
       },
       {
         "quest_id": "daily_pet",
         "status": "active",
         "baseline": 14,
-        "started_at": "2026-06-25T11:37:45.132Z"
+        "started_at": "2026-06-25T11:37:54.595Z"
       },
       {
         "quest_id": "exterminador",
@@ -245,7 +245,7 @@
       }
     ],
     "total_quests_done": 6,
-    "last_daily_reset": "2026-06-25T11:37:45.132Z",
+    "last_daily_reset": "2026-06-25T11:37:54.595Z",
     "total_enemies_defeated": 0
   },
   "inventory": {
