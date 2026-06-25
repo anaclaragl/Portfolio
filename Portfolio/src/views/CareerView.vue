@@ -22,13 +22,11 @@
       <h3>2022 - 2025</h3>
       <p>I pursue a Bachelor's degree in Game Development. With focus on <span style="color: var(--orange);">C#, Unity, Design Patterns, Game Design and Blender.</span></p>
     </div>
-    <hr />
     <div class="education">
       <h2>Centro Federal de Educação Tecnológica</h2>
       <h3>2019 - 2021</h3>
       <p>I graduated from high school with a Technical Degree in Computing. Throughout the course, I studied multiple programming languages, with strong focus on <span style="color: var(--orange);">C++, HTML and CSS.</span></p>
     </div>
-    <hr />
     
   </section>
 </template>
