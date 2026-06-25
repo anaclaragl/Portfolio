@@ -9,7 +9,7 @@ import euImage from '@/assets/Images/eu.png'
         <img :src="euImage" alt="Ana Linhares" id="profilePic" />
       </div>
       <p>
-        Hi there! My name is <span class="name">ANA LINHARES</span>, a passionate programmer who appreciates the journey of developing experiences.
+        Hi there! My name is <span class="name">ANA CLARA</span>, a passionate programmer who appreciates the journey of developing experiences.
       </p>
     </div>
 
