@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "saved_at": "2026-06-25T14:20:34.778Z",
+  "saved_at": "2026-06-25T14:21:34.786Z",
   "tama": {
     "name": "Pochi",
     "hunger": 81,
@@ -15,7 +15,7 @@
     "pissed_of": false,
     "overweight": false,
     "underweight": true,
-    "last_saved": "2026-06-25T14:20:34.778Z",
+    "last_saved": "2026-06-25T14:21:34.786Z",
     "xp": 720,
     "level": 4,
     "stage": 1,
