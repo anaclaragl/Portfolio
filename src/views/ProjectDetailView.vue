@@ -91,7 +91,11 @@ const goBack = () => router.push({ name: 'projects' })
       <p>{{ project.evaluation }}</p>
       <div class="gridgalery">
         <template v-for="asset in project.assets" :key="asset">
-          <img v-if="asset.endsWith('.png') || asset.endsWith('.jpg')" :src="asset" />
+          <img
+            v-if="typeof asset === 'string' && (asset.endsWith('.png') || asset.endsWith('.jpg') || asset.endsWith('.jpeg'))"
+            :src="asset"
+            :alt="project.title"
+          />
           <video v-else controls :src="asset" style="width: 100%; max-width: 600px;" />
         </template>
       </div>
