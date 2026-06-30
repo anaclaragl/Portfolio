@@ -338,11 +338,11 @@ footer {
 
 .project-header-image {
     display: block;
-    width: 100%;
-    max-width: 560px;
-    max-height: 280px;
+    width: min(100%, 480px);
+    height: auto;
+    max-height: 220px;
     object-fit: contain;
-    border-radius: 18px;
+    border-radius: 14px;
     margin: 0 auto 20px;
     background: rgba(255,255,255,0.03);
 }
@@ -378,9 +378,9 @@ footer {
 
 .gridgalery img,
 .gridgalery video {
-    width: 100%;
-    max-width: 520px;
-    max-height: 320px;
+    width: min(100%, 320px);
+    height: auto;
+    max-height: 220px;
     object-fit: cover;
     border-radius: 12px;
     display: block;
@@ -471,8 +471,8 @@ footer {
     }
 
     .project-header-image {
-        max-height: 220px;
-        max-width: 100%;
+        max-height: 180px;
+        width: min(100%, 360px);
     }
 
     .gridgalery {
@@ -485,9 +485,8 @@ footer {
 
     .gridgalery img, 
     .gridgalery video {
-        width: min(100%, 360px);
-        max-width: 360px;
-        max-height: 240px;
+        width: min(100%, 280px);
+        max-height: 180px;
         height: auto;
         margin: 0 auto;
         display: block;
