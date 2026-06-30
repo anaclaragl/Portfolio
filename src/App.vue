@@ -30,7 +30,7 @@ const goToTab = (tab) => {
       <div class="profile-pic-container">
         <img :src="euImage" alt="Ana Linhares" id="profilePic">
       </div>
-      <p>Hi there! My name is <span class="name">ANA LINHARES</span>, a passionate programmer who appreciate the journey of developing experiences.</p>
+      <p>Hi there! My name is <span class="name">ANA CLARA</span>, a passionate programmer who appreciate the journey of developing experiences.</p>
     </div>
     <div class="links">
       <a href="mailto:ag.linhares2@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
